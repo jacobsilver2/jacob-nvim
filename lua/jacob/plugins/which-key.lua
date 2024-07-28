@@ -6,9 +6,6 @@ return {
     vim.o.timeoutlen = 500
   end,
   opts = {
-    defaults = {
-      preset = "helix",
-    },
     spec = {
       mode = { "n", "v" },
       { "<leader>c", group = "code" },
